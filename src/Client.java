@@ -49,7 +49,7 @@ public class Client {
             } while(!salir);
 
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println("Error con el servidor");
         }
     }
 }
