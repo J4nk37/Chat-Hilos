@@ -1,4 +1,4 @@
-# 🗨️ Servidor de Chat Concurrente en Java (Sockets + Threads)
+# 🗨️ Servidor de Chat Concurrente en Java (Sockets + Threads) Agustín Borreguero Castro, José Antonio Jiménez Bernaza
 
 Práctica de **Programación de Servicios y Procesos (PSP)** cuyo objetivo es desarrollar un **servidor de chat multihilo** capaz de atender a múltiples clientes simultáneamente mediante **Java Sockets** y **Threads**.
 
@@ -61,7 +61,6 @@ Cada cliente es gestionado por una instancia de `GestorCliente`, que:
 Esto permite que varios clientes hablen con el servidor **al mismo tiempo**, sin bloqueos.
 
 ---
-# Agustín Borreguero Castro, José Antonio Jiménez Bernaza
 ## ¿Qué ocurre con el Cliente 2? 
 Cuando arrancamos el Cliente 2 no puede conectarse ni le deja mandar ningún mensaje porque el servidor está durmiendo debido al Thread.sleep(15000).
 ## ¿Por qué no puede ni siquiera enviar su mensaje? 
